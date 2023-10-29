@@ -17,7 +17,7 @@ public class ArrayExample {
   }
 
   private void populateArray() {
-    for(int i = 0; i < 10; i++) {
+    for(int i = 0; i <= 10; i++) {
       this.numbers[i] = i;
     }
   }
@@ -29,8 +29,7 @@ public class ArrayExample {
   }
 
   public void changeArrayList() {
-    for (int i = 0; i < this.coolWords.size(); i++) {
-      String word = this.coolWords.get(i);
+    for (String word: this.coolWords) {
       System.out.println(word);
       if (word.equals("Andy")) {
         this.coolWords.remove(word);

@@ -40,7 +40,7 @@ public class PaneOrganizer {
     b4.setOnAction((ActionEvent e) -> a.changeArrayList());
   }
 
-  public Pane getRoot() {
+  public Pane getRoots() {
     return this.root;
   }
 }
