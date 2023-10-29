@@ -10,13 +10,13 @@ public class Alien {
   private Ellipse rightEye;
 
   public Alien(Pane root) {
-    this.face = new Ellipse(0, Constants.FACE_Y, Constants.FACE_RAD_X,
-            Constants.FACE_RAD_Y);
-    this.face.setFill(Color.CHARTREUSE);
+
+    this.face = new Ellipse(0, Constants.FACE_Y, Constants.FACE_RAD_X, Constants.FACE_RAD_Y);
+    this.face.setFill(Color.LIGHTGREEN);
     this.leftEye = new Ellipse(0, Constants.EYE_Y, Constants.EYE_RAD_X, Constants.EYE_RAD_Y);
     this.rightEye = new Ellipse(0, Constants.EYE_Y, Constants.EYE_RAD_X, Constants.EYE_RAD_Y);
     this.setXLoc(Constants.START_X_OFFSET);
-    root.getChildren().addAll(this.face, this.leftEye, this.rightEye);
+    root.getChildren().addAll(this.face,  this.rightEye, this.leftEye);
   }
 
   public void moveRight() {
