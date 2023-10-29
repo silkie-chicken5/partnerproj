@@ -3,7 +3,7 @@ package codeAlong4;
 public class Constants {
 
   public static final double EYE_RAD_X = 25;
-  public static final double EYE_RAD_Y = 35
+  public static final double EYE_RAD_Y = 45;
   public static final double FACE_RAD_X = 100;
   public static final double FACE_RAD_Y = 120;
   public static final double APP_WIDTH = 300;

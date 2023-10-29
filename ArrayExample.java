@@ -17,7 +17,7 @@ public class ArrayExample {
   }
 
   private void populateArray() {
-    for(int i = 0; i <= 10; i++) {
+    for(int i = 0; i < 10; i++) {
       this.numbers[i] = i;
     }
   }
