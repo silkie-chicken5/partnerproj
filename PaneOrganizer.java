@@ -33,14 +33,11 @@ public class PaneOrganizer {
     buttonPane.setAlignment(Pos.CENTER);
     b1.setOnAction((ActionEvent e) -> this.alien.moveLeft());
     b2.setOnAction((ActionEvent e) -> this.alien.moveRight());
-//    System.out.println("b1: " + b1);
-//    System.out.println("b2: " + b2);
-//    System.out.println("alien: " + this.alien);
     b3.setOnAction((ActionEvent e) -> a.printArray());
     b4.setOnAction((ActionEvent e) -> a.changeArrayList());
   }
 
-  public Pane getRoots() {
+  public Pane getRoot() {
     return this.root;
   }
 }
